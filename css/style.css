@@ -2,15 +2,18 @@
 /* START header css */
 /* ----------------- */
 .main-header {
-    height: 100%;
     background: url("../imgs/header-background.png") center no-repeat;
     background-size: cover;
-
+    height: 100%;
 
 }
 .header-background {
+    top:0;
+    position: absolute;
 
-    position: relative;
+
+
+
 }
 .container-header-background {
     margin: 60px;
@@ -75,8 +78,8 @@
     font-size: 35pt;
 }
 .header-left-top {
-    top:0;
-    position:absolute;
+
+    position:relative;
     background: url("../imgs/header-info-bg.png") center no-repeat;
     background-size: cover;
 }
