@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de164e34-67e7-413d-bb1b-716dbf531b70" name="Default Changelist" comment="">
+    <list default="true" id="de164e34-67e7-413d-bb1b-716dbf531b70" name="Default Changelist" comment="oprava responzivne zobrazovania headeru">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -29,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -43,12 +44,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602146958100</updated>
-      <workItem from="1602146964432" duration="10991000" />
+      <workItem from="1602146964432" duration="14112000" />
     </task>
+    <task id="LOCAL-00001" summary="oprava responzivne zobrazovania headeru">
+      <created>1602182047688</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602182047688</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="oprava responzivne zobrazovania headeru" />
+    <option name="LAST_COMMIT_MESSAGE" value="oprava responzivne zobrazovania headeru" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1768" y="862" key="Github.ShareDialog" timestamp="1602180556485">
@@ -59,5 +72,9 @@
       <screen x="0" y="25" width="2560" height="1334" />
     </state>
     <state x="1675" y="670" key="Github.UntrackedFilesDialog/0.25.2560.1334@0.25.2560.1334" timestamp="1602180572155" />
+    <state x="1233" y="698" key="Vcs.Push.Dialog.v2" timestamp="1602182051117">
+      <screen x="0" y="25" width="2560" height="1334" />
+    </state>
+    <state x="1233" y="698" key="Vcs.Push.Dialog.v2/0.25.2560.1334@0.25.2560.1334" timestamp="1602182051117" />
   </component>
 </project>

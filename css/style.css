@@ -1,3 +1,7 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+
 /* ----------------- */
 /* START header css */
 /* ----------------- */
@@ -21,7 +25,6 @@
 .header-background h1 {
     color: white;
     padding-top: 120px;
-    font-family: Montserrat, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 74pt;
@@ -31,7 +34,6 @@
 }
 .header-background .menu-trigger p {
     color: white;
-    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     font-size: 15pt;
     font-weight: bold;
@@ -98,7 +100,6 @@
 }
 .container-header-left .header-text h1 {
     color: white;
-    font-family: Montserrat, sans-serif;
     font-size: 21pt;
 }
 .container-header-left .main-text {
@@ -107,12 +108,10 @@
 }
 .container-header-left .main-text p {
     color: white;
-    font-family: Montserrat, sans-serif;
     font-size: 15pt;
 }
 .container-header-left p {
     color: white;
-    font-family: Montserrat, sans-serif;
     font-size: 15pt;
 }
 .container-header-left .icons {
@@ -121,7 +120,6 @@
 }
 .container-header-left .contact-info p {
     color: white;
-    font-family: Montserrat, sans-serif;
     font-size: 18pt;
 }
 .container-header-left .contact-info i {
@@ -146,7 +144,6 @@
 }
 .about-us h1 {
     color: white;
-    font-family: Montserrat, sans-serif;
     font-weight: 300;
     font-size: 40pt;
 }
@@ -155,7 +152,6 @@
 }
 .about-us .about-us-text p {
     color: white;
-    font-family: Montserrat, sans-serif;
     font-size: 18pt;
 }
 .about-us .types {
@@ -164,8 +160,101 @@
 }
 .about-us .types p {
     color: white;
-    font-family: Montserrat, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 18pt;
+}
+.about-us .types  p i{
+    color: #595959;
+
+}
+
+/* ----------------- */
+/* END about us css */
+/* ----------------- */
+
+/* ----------------- */
+/* START portfolio css */
+/* ----------------- */
+
+.portfolio {
+    margin-top: 70px;
+}
+.portfolio .header-text {
+    text-align: center !important;
+}
+.portfolio .header-text h1 {
+    font-size: 78pt;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+}
+.portfolio .header-text p {
+    width: 88%;
+    margin-left: 6%;
+    font-size: 27pt;
+    color: #bebebe;
+}
+
+/* ----------------- */
+/* END portfolio css */
+/* ----------------- */
+
+/* ----------------- */
+/* START articles css */
+/* ----------------- */
+
+.articles {
+    margin: 70px 0 120px 0;
+    border-bottom: 2px solid black;
+}
+.articles .header-text {
+    text-align: center !important;
+}
+.articles .header-text h1 {
+    font-size: 78pt;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+}
+.articles .header-text p {
+    width: 89%;
+    margin-left: 5.5%;
+    font-size: 27pt;
+    color: #bebebe;
+}
+.articles-articles {
+    margin: 70px 50px 90px 50px;
+    justify-content:center;
+}
+.articles-image-one {
+    width: 100%;
+    height: 380px;
+    background: url("../imgs/article-one.png") center no-repeat;
+    background-size: cover;
+}
+.articles-image-two {
+    width: 100%;
+    height: 380px;
+    background: url("../imgs/article-two.png") center no-repeat;
+    background-size: cover;
+}
+.articles-articles h1 {
+    margin: 15px 0 45px 0;
+    color: black;
+    font-size: 26pt;
+    font-weight: 200;
+}
+.articles-articles .know-more {
+    border: 2px solid black;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    padding: 15px 40px 15px 40px;
+    border-radius: 30px;
+}
+.articles-articles .know-more:hover {
+    background: black;
+    color: white;
 }
