@@ -184,7 +184,7 @@ body {
     text-align: center !important;
 }
 .portfolio .header-text h1 {
-    font-size: 78pt;
+    font-size: 90pt;
     text-transform: uppercase;
     color: black;
     font-weight: 700;
@@ -205,14 +205,14 @@ body {
 /* ----------------- */
 
 .articles {
-    margin: 70px 0 120px 0;
+    margin: 90px 0 120px 0;
     border-bottom: 2px solid black;
 }
 .articles .header-text {
     text-align: center !important;
 }
 .articles .header-text h1 {
-    font-size: 78pt;
+    font-size: 90pt;
     text-transform: uppercase;
     color: black;
     font-weight: 700;
@@ -257,4 +257,149 @@ body {
 .articles-articles .know-more:hover {
     background: black;
     color: white;
+}
+/* ----------------- */
+/* END articles css */
+/* ----------------- */
+
+/* ----------------- */
+/* START testemonialss css */
+/* ----------------- */
+
+.testemonials {
+    margin: 90px 0px 0;
+    border-bottom: 2px solid black;
+}
+.testemonials .header-text {
+    text-align: center !important;
+}
+.testemonials .header-text h1 {
+    font-size: 90pt;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+}
+.testemonials .header-text p {
+    width: 89%;
+    margin-left: 5.5%;
+    font-size: 27pt;
+    color: #bebebe;
+}
+.testemonials-testemonials {
+    margin: 70px 50px 90px 50px;
+    justify-content:center;
+
+}
+.testemonials-testemonials .img-one {
+    width: 100%;
+    height: 108px;
+    background: url("../imgs/test-one.png") center no-repeat;
+    background-size: cover;
+}
+.testemonials-testemonials .img-two {
+    width: 100%;
+    height: 108px;
+    background: url("../imgs/test-2.png") center no-repeat;
+    background-size: cover;
+}
+.testemonials-testemonials p {
+    font-size: 18pt;
+    color: black;
+    font-weight: 100;
+}
+.testemonials-testemonials .name {
+    font-size: 18pt;
+    color: black;
+     font-weight: bold;
+ }
+.testemonials-testemonials .location {
+    font-size: 18pt;
+    color: black;
+    margin-top: -15px;
+    font-weight: 500;
+}
+
+/* ----------------- */
+/* END testimonials css */
+/* ----------------- */
+
+/* ----------------- */
+/* START footer css */
+/* ----------------- */
+
+.footer {
+    background: url("../imgs/footer-img.png") center no-repeat;
+    background-size: cover;
+
+}
+.footer-container {
+    padding: 70px 50px 70px 50px;
+    border-bottom: 1px solid white;
+}
+.footer-get-touch {
+    justify-content: center;
+
+}
+.footer-get-touch h1 {
+    color: white;
+    font-size: 50pt;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+.footer-get-touch h2 {
+     color: white;
+     font-size: 25pt;
+     font-weight: 200;
+ }
+.footer-get-touch .form-email {
+    color: #b6b6b6;
+    text-transform: uppercase;
+    height: 70px;
+    padding-left: 25px;
+    font-weight: 100;
+}
+.footer-get-touch .btn-email {
+    padding: 0 30px 0 30px;
+    border: none;
+    font-size: 17pt;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    background: url("../imgs/button_bg.png") center no-repeat;
+    background-size: cover;
+}
+.footer-get-touch .btn-email:hover {
+    color:  black;
+}
+.real-footer ul {
+    color: white;
+    text-transform: uppercase;
+    font-size: 17pt;
+}
+.real-footer ul li {
+    margin-right: 10px;
+}
+.real-footer ul li a {
+    color: white;
+}
+.real-footer ul li a:hover {
+    text-decoration: underline;
+}
+.real-footer ul li:not(:last-child):after {
+     content: "|";
+     margin-left: 10px;
+ }
+.real-footer p {
+    color: white;
+    font-size: 18pt;
+    font-weight: 300;
+}
+.real-footer p span {
+    color: #ffff00;
+    font-weight: 500;
+    font-size: 18pt;
+}
+.real-footer .information-text {
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
