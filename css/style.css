@@ -162,7 +162,7 @@ body {
     color: white;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 18pt;
+    font-size: 16pt;
 }
 .about-us .types  p i{
     color: #595959;
@@ -184,7 +184,7 @@ body {
     text-align: center !important;
 }
 .portfolio .header-text h1 {
-    font-size: 90pt;
+    font-size: 78pt;
     text-transform: uppercase;
     color: black;
     font-weight: 700;
@@ -194,6 +194,69 @@ body {
     margin-left: 6%;
     font-size: 27pt;
     color: #bebebe;
+}
+.portfolio-img {
+    padding: 15px;
+}
+.portfolio-img-small {
+    height: 300px;
+}
+.portfolio-img-middle {
+    height: 350px;
+}
+.portfolio-img-big {
+    height: 600px;
+}
+
+.hover {
+    background: transparent;
+}
+.hover:hover {
+    background: linear-gradient(-41deg, rgba(132,181,0,1) 0%, rgba(0,197,199,1) 100%);
+    opacity: 0.5;
+}
+.image-main {
+    width: 100%;
+    height: 100%;
+    background: center no-repeat;
+    background-image: url("../imgs/p-img-1.png");
+    background-size: cover;
+}
+.image-1 {
+    width: 100%;
+    height: 100%;
+    background: url("../imgs/p-img-2.png") center no-repeat;
+    background-size: cover;
+}
+.image-2 {
+    width: 100%;
+    height: 100%;
+    background: url("../imgs/p-img-3.png") center no-repeat;
+    background-size: cover;
+}
+.image-3 {
+    width: 100%;
+    height: 100%;
+    background: url("../imgs/p-img-4.png") center no-repeat;
+    background-size: cover;
+}
+.image-4 {
+    width: 100%;
+    height: 100%;
+    background: url("../imgs/p-img-5.png") center no-repeat;
+    background-size: cover;
+}
+.image-5 {
+    width: 100%;
+    height: 100%;
+    background: url("../imgs/p-img-6.png") center no-repeat;
+    background-size: cover;
+}
+.image-6 {
+    width: 100%;
+    height: 100%;
+    background: url("../imgs/p-img-7.png") center no-repeat;
+    background-size: cover;
 }
 
 /* ----------------- */
@@ -212,7 +275,7 @@ body {
     text-align: center !important;
 }
 .articles .header-text h1 {
-    font-size: 90pt;
+    font-size: 72pt;
     text-transform: uppercase;
     color: black;
     font-weight: 700;
@@ -274,7 +337,7 @@ body {
     text-align: center !important;
 }
 .testemonials .header-text h1 {
-    font-size: 90pt;
+    font-size: 82pt;
     text-transform: uppercase;
     color: black;
     font-weight: 700;
@@ -291,13 +354,13 @@ body {
 
 }
 .testemonials-testemonials .img-one {
-    width: 100%;
+    width: 108px;
     height: 108px;
     background: url("../imgs/test-one.png") center no-repeat;
     background-size: cover;
 }
 .testemonials-testemonials .img-two {
-    width: 100%;
+    width: 108px;
     height: 108px;
     background: url("../imgs/test-2.png") center no-repeat;
     background-size: cover;
@@ -318,6 +381,7 @@ body {
     margin-top: -15px;
     font-weight: 500;
 }
+
 
 /* ----------------- */
 /* END testimonials css */
@@ -342,7 +406,7 @@ body {
 }
 .footer-get-touch h1 {
     color: white;
-    font-size: 50pt;
+    font-size: 42pt;
     font-weight: 200;
     text-transform: capitalize;
 }
@@ -402,4 +466,8 @@ body {
 .real-footer .information-text {
     margin-top: 80px;
     margin-bottom: 30px;
+}
+
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de164e34-67e7-413d-bb1b-716dbf531b70" name="Default Changelist" comment="pridanie blogu">
+    <list default="true" id="de164e34-67e7-413d-bb1b-716dbf531b70" name="Default Changelist" comment="pridanie testimonials + footer komplet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -47,6 +47,8 @@
       <option name="presentableId" value="Default" />
       <updated>1602146958100</updated>
       <workItem from="1602146964432" duration="18461000" />
+      <workItem from="1602190016668" duration="229000" />
+      <workItem from="1602221768135" duration="8654000" />
     </task>
     <task id="LOCAL-00001" summary="oprava responzivne zobrazovania headeru">
       <created>1602182047688</created>
@@ -90,5 +92,13 @@
       <screen x="0" y="25" width="2560" height="1334" />
     </state>
     <state x="1233" y="698" key="Vcs.Push.Dialog.v2/0.25.2560.1334@0.25.2560.1334" timestamp="1602185162742" />
+    <state x="522" y="340" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602225949823">
+      <screen x="0" y="25" width="1440" height="794" />
+    </state>
+    <state x="522" y="340" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.794@0.25.1440.794" timestamp="1602225949823" />
+    <state x="385" y="143" width="670" height="676" key="search.everywhere.popup" timestamp="1602239466044">
+      <screen x="0" y="25" width="1440" height="794" />
+    </state>
+    <state x="385" y="143" width="670" height="676" key="search.everywhere.popup/0.25.1440.794@0.25.1440.794" timestamp="1602239466044" />
   </component>
 </project>
