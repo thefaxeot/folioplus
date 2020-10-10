@@ -5,21 +5,19 @@ body {
 /* ----------------- */
 /* START header css */
 /* ----------------- */
-.main-header {
+.header {
     background: url("../imgs/header-background.png") center no-repeat;
     background-size: cover;
     height: 100%;
-
 }
-.header-background {
+.header-bg {
     top:0;
     position: absolute;
 }
-.container-header-background {
+.header-bg-container {
     margin: 60px;
 }
-
-.header-background h1 {
+.header-bg h1 {
     width: 650px;
     color: white;
     padding-top: 120px;
@@ -27,16 +25,16 @@ body {
     text-transform: uppercase;
     font-size: 74pt;
 }
-.header-background .menu-trigger {
+.header-bg .menu-trigger {
     float: right;
 }
-.header-background .menu-trigger p {
+.header-bg .menu-trigger p {
     color: white;
     text-transform: uppercase;
     font-size: 15pt;
     font-weight: bold;
 }
-.header-background .know-more {
+.header-bg .know-more {
     border: 2px solid white;
     background: none;
     text-transform: uppercase;
@@ -45,7 +43,7 @@ body {
     padding: 15px 40px 15px 40px;
     border-radius: 30px;
 }
-.header-background .know-more:hover {
+.header-bg .know-more:hover {
     border: 2px solid white;
     background: white;
     text-transform: uppercase;
@@ -54,7 +52,7 @@ body {
     padding: 15px 40px 15px 40px;
     border-radius: 30px;
 }
-.header-background .get-started {
+.header-bg .get-started {
     border: 2px solid white;
     background: white;
     text-transform: uppercase;
@@ -63,7 +61,7 @@ body {
     padding: 15px 40px 15px 40px;
     border-radius: 30px;
 }
-.header-background .get-started:hover {
+.header-bg .get-started:hover {
     border: 2px solid white;
     background: none;
     text-transform: uppercase;
@@ -72,18 +70,17 @@ body {
     padding: 15px 40px 15px 40px;
     border-radius: 30px;
 }
-.header-background .menu-trigger i {
+.header-bg .menu-trigger i {
     vertical-align: middle;
     margin-left: 10px;
     font-size: 35pt;
 }
-.header-left-top {
-
+.header-text {
     position:relative;
     background: url("../imgs/header-info-bg.png") center no-repeat;
     background-size: cover;
 }
-.container-header-left {
+.header-text-container {
     padding: 50px;
 }
 .logo {
@@ -92,40 +89,40 @@ body {
     background: url("../imgs/logo.png") center no-repeat;
     background-size: cover;
 }
-.container-header-left .header-text {
+.header-text-container .header-text-header {
     margin-top: 50px;
     margin-bottom: 40px;
 }
-.container-header-left .header-text h1 {
-    width: 350px;
+.header-text-container .header-text-header h1 {
+    max-width: 350px;
     color: white;
     font-size: 21pt;
 }
-.container-header-left .main-text {
+.header-text-container .main-text {
     margin-bottom: 40px;
 
 }
-.container-header-left .main-text p {
+.header-text-container .main-text p {
     color: white;
     font-size: 15pt;
 }
-.container-header-left p {
+.header-text-container p {
     color: white;
     font-size: 15pt;
 }
-.container-header-left .icons {
+.header-text-container .icons {
     color: white;
     font-size: 24pt;
 }
-.container-header-left .contact-info p {
+.header-text-container .contact-info p {
     color: white;
     font-size: 18pt;
 }
-.container-header-left .contact-info i {
+.header-text-container .contact-info i {
     font-weight: bold;
     margin-right: 20px;
 }
-.container-header-left .contact-info .first i {
+.header-text-container .contact-info .first i {
     margin-right: 28px;
 }
 /* ----------------- */
