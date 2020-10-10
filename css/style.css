@@ -75,12 +75,12 @@ body {
     margin-left: 10px;
     font-size: 35pt;
 }
-.header-text {
+.header-tm {
     position:relative;
     background: url("../imgs/header-info-bg.png") center no-repeat;
     background-size: cover;
 }
-.header-text-container {
+.header-tm-container {
     padding: 50px;
 }
 .logo {
@@ -89,40 +89,40 @@ body {
     background: url("../imgs/logo.png") center no-repeat;
     background-size: cover;
 }
-.header-text-container .header-text-header {
+.header-tm-container .header-tm-header {
     margin-top: 50px;
     margin-bottom: 40px;
 }
-.header-text-container .header-text-header h1 {
+.header-tm-container .header-tm-header h1 {
     max-width: 350px;
     color: white;
     font-size: 21pt;
 }
-.header-text-container .main-text {
+.header-tm-container .main-text {
     margin-bottom: 40px;
 
 }
-.header-text-container .main-text p {
+.header-tm-container .main-text p {
     color: white;
     font-size: 15pt;
 }
-.header-text-container p {
+.header-tm-container p {
     color: white;
     font-size: 15pt;
 }
-.header-text-container .icons {
+.header-tm-container .icons {
     color: white;
     font-size: 24pt;
 }
-.header-text-container .contact-info p {
+.header-tm-container .contact-info p {
     color: white;
     font-size: 18pt;
 }
-.header-text-container .contact-info i {
+.header-tm-container .contact-info i {
     font-weight: bold;
     margin-right: 20px;
 }
-.header-text-container .contact-info .first i {
+.header-tm-container .contact-info .first i {
     margin-right: 28px;
 }
 /* ----------------- */
@@ -484,7 +484,7 @@ body {
     font-size: calc(100% + 1vw + 1vh);
 }
 @media only screen and (max-width: 600px) {
-    .container-header-background {
+    .header-bg-container {
         display: none;
     }
     .portfolio .header-text h1 {
