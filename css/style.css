@@ -14,15 +14,13 @@ body {
 .header-background {
     top:0;
     position: absolute;
-
-
-
-
 }
 .container-header-background {
     margin: 60px;
 }
+
 .header-background h1 {
+    width: 650px;
     color: white;
     padding-top: 120px;
     font-weight: bold;
@@ -99,6 +97,7 @@ body {
     margin-bottom: 40px;
 }
 .container-header-left .header-text h1 {
+    width: 350px;
     color: white;
     font-size: 21pt;
 }
@@ -211,9 +210,25 @@ body {
 .hover {
     background: transparent;
 }
-.hover:hover {
+.hover:before {
+    content: '';
+    color: white;
+    font-size: 150pt;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    top: 15px;
+    transition: opacity 0.5s ease-out;
     background: linear-gradient(-41deg, rgba(132,181,0,1) 0%, rgba(0,197,199,1) 100%);
-    opacity: 0.5;
+    opacity: 0.0;
+}
+
+.hover:hover:before {
+    opacity: 0.8;
 }
 .image-main {
     width: 100%;
@@ -470,4 +485,24 @@ body {
 
 .text-responsive {
     font-size: calc(100% + 1vw + 1vh);
+}
+@media only screen and (max-width: 600px) {
+    .container-header-background {
+        display: none;
+    }
+    .portfolio .header-text h1 {
+        font-size: 45pt;
+    }
+    .portfolio .header-text h1 {
+        font-size: 45pt;
+    }
+    .articles .header-text h1 {
+        font-size: 45pt;
+    }
+    .testemonials .header-text h1 {
+        font-size: 45pt;
+    }
+    .about-us .types {
+        margin-left: 0px;
+    }
 }
