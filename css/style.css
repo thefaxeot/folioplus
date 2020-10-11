@@ -303,13 +303,13 @@ body {
 }
 .articles-image-one {
     width: 100%;
-    height: 380px;
+    height: 250px;
     background: url("../imgs/article-one.png") center no-repeat;
     background-size: cover;
 }
 .articles-image-two {
     width: 100%;
-    height: 380px;
+    height: 250px;
     background: url("../imgs/article-two.png") center no-repeat;
     background-size: cover;
 }
@@ -501,7 +501,8 @@ body {
         font-size: 2rem;
         font-weight: bold;
     }
-    .about-us .types {
-        margin-left: 0px;
+    .real-footer ul li:not(:last-child):after {
+        content: "";
+        margin-left: 10px;
     }
 }
