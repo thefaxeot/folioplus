@@ -1,7 +1,20 @@
 body {
     font-family: Montserrat, sans-serif;
 }
-
+.section-name {
+    text-align: center !important;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+}
+.section-desc {
+    text-align: center !important;
+    width: 88%;
+    margin-left: 6%;
+    font-size: 1.75rem;
+    color: #bebebe;
+}
 /* ----------------- */
 /* START header css */
 /* ----------------- */
@@ -23,7 +36,7 @@ body {
     padding-top: 120px;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 74pt;
+    font-size: 6.1rem;
 }
 .header-bg .menu-trigger {
     float: right;
@@ -31,7 +44,7 @@ body {
 .header-bg .menu-trigger p {
     color: white;
     text-transform: uppercase;
-    font-size: 15pt;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 .header-bg .know-more {
@@ -73,7 +86,7 @@ body {
 .header-bg .menu-trigger i {
     vertical-align: middle;
     margin-left: 10px;
-    font-size: 35pt;
+    font-size: 2.4rem;
 }
 .header-tm {
     position:relative;
@@ -96,7 +109,7 @@ body {
 .header-tm-container .header-tm-header h1 {
     max-width: 350px;
     color: white;
-    font-size: 21pt;
+    font-size: 1.75rem;
 }
 .header-tm-container .main-text {
     margin-bottom: 40px;
@@ -104,19 +117,19 @@ body {
 }
 .header-tm-container .main-text p {
     color: white;
-    font-size: 15pt;
+    font-size: 1.25em;
 }
 .header-tm-container p {
     color: white;
-    font-size: 15pt;
+    font-size: 1.25em;
 }
 .header-tm-container .icons {
     color: white;
-    font-size: 24pt;
+    font-size: 2em;
 }
 .header-tm-container .contact-info p {
     color: white;
-    font-size: 18pt;
+    font-size: 1.5em;
 }
 .header-tm-container .contact-info i {
     font-weight: bold;
@@ -141,24 +154,23 @@ body {
 .about-us h1 {
     color: white;
     font-weight: 300;
-    font-size: 40pt;
+    font-size: 3em;
 }
 .about-us h1 span {
     color: #00ffff;
 }
 .about-us .about-us-text p {
     color: white;
-    font-size: 18pt;
+    font-size: 1.25rem;
 }
 .about-us .types {
     margin-left: 60px;
-    margin-top: 40px;
 }
 .about-us .types p {
     color: white;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 16pt;
+    font-size: 1.25rem;
 }
 .about-us .types  p i{
     color: #595959;
@@ -177,19 +189,7 @@ body {
     margin-top: 70px;
 }
 .portfolio .header-text {
-    text-align: center !important;
-}
-.portfolio .header-text h1 {
-    font-size: 78pt;
-    text-transform: uppercase;
-    color: black;
-    font-weight: 700;
-}
-.portfolio .header-text p {
-    width: 88%;
-    margin-left: 6%;
-    font-size: 27pt;
-    color: #bebebe;
+
 }
 .portfolio-img {
     padding: 15px;
@@ -203,7 +203,6 @@ body {
 .portfolio-img-big {
     height: 600px;
 }
-
 .hover {
     background: transparent;
 }
@@ -287,7 +286,7 @@ body {
     text-align: center !important;
 }
 .articles .header-text h1 {
-    font-size: 72pt;
+    font-size: 5rem;
     text-transform: uppercase;
     color: black;
     font-weight: 700;
@@ -295,7 +294,7 @@ body {
 .articles .header-text p {
     width: 89%;
     margin-left: 5.5%;
-    font-size: 27pt;
+    font-size: 1.75rem;
     color: #bebebe;
 }
 .articles-articles {
@@ -317,7 +316,7 @@ body {
 .articles-articles h1 {
     margin: 15px 0 45px 0;
     color: black;
-    font-size: 26pt;
+    font-size: 2rem;
     font-weight: 200;
 }
 .articles-articles .know-more {
@@ -349,7 +348,7 @@ body {
     text-align: center !important;
 }
 .testemonials .header-text h1 {
-    font-size: 82pt;
+    font-size: 5rem;
     text-transform: uppercase;
     color: black;
     font-weight: 700;
@@ -357,7 +356,7 @@ body {
 .testemonials .header-text p {
     width: 89%;
     margin-left: 5.5%;
-    font-size: 27pt;
+    font-size: 1.75rem;
     color: #bebebe;
 }
 .testemonials-testemonials {
@@ -378,17 +377,17 @@ body {
     background-size: cover;
 }
 .testemonials-testemonials p {
-    font-size: 18pt;
+    font-size: 1.25rem;
     color: black;
     font-weight: 100;
 }
 .testemonials-testemonials .name {
-    font-size: 18pt;
+    font-size: 1.25rem;
     color: black;
      font-weight: bold;
  }
 .testemonials-testemonials .location {
-    font-size: 18pt;
+    font-size: 1.25rem;
     color: black;
     margin-top: -15px;
     font-weight: 500;
@@ -418,13 +417,13 @@ body {
 }
 .footer-get-touch h1 {
     color: white;
-    font-size: 42pt;
+    font-size: 3rem;
     font-weight: 200;
     text-transform: capitalize;
 }
 .footer-get-touch h2 {
      color: white;
-     font-size: 25pt;
+     font-size: 1.65rem;
      font-weight: 200;
  }
 .footer-get-touch .form-email {
@@ -450,7 +449,7 @@ body {
 .real-footer ul {
     color: white;
     text-transform: uppercase;
-    font-size: 17pt;
+    font-size: 1.35rem;
 }
 .real-footer ul li {
     margin-right: 10px;
@@ -467,13 +466,12 @@ body {
  }
 .real-footer p {
     color: white;
-    font-size: 18pt;
+    font-size: 1.35rem;
     font-weight: 300;
 }
 .real-footer p span {
     color: #ffff00;
     font-weight: 500;
-    font-size: 18pt;
 }
 .real-footer .information-text {
     margin-top: 80px;
@@ -487,17 +485,21 @@ body {
     .header-bg-container {
         display: none;
     }
-    .portfolio .header-text h1 {
-        font-size: 45pt;
+    .icon {
+        max-width: 15%;
     }
-    .portfolio .header-text h1 {
-        font-size: 45pt;
+    .type {
+        max-width: 50%;
     }
-    .articles .header-text h1 {
-        font-size: 45pt;
+    .section-name {
+        font-size: 3rem;
     }
-    .testemonials .header-text h1 {
-        font-size: 45pt;
+    .section-desc {
+        font-size: 1.7rem;
+    }
+    .footer-get-touch h1 {
+        font-size: 2rem;
+        font-weight: bold;
     }
     .about-us .types {
         margin-left: 0px;
