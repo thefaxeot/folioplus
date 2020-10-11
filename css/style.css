@@ -188,9 +188,6 @@ body {
 .portfolio {
     margin-top: 70px;
 }
-.portfolio .header-text {
-
-}
 .portfolio-img {
     padding: 15px;
 }
@@ -282,21 +279,6 @@ body {
     margin: 90px 0 120px 0;
     border-bottom: 2px solid black;
 }
-.articles .header-text {
-    text-align: center !important;
-}
-.articles .header-text h1 {
-    font-size: 5rem;
-    text-transform: uppercase;
-    color: black;
-    font-weight: 700;
-}
-.articles .header-text p {
-    width: 89%;
-    margin-left: 5.5%;
-    font-size: 1.75rem;
-    color: #bebebe;
-}
 .articles-articles {
     margin: 70px 50px 90px 50px;
     justify-content:center;
@@ -343,21 +325,6 @@ body {
 .testemonials {
     margin: 90px 0px 0;
     border-bottom: 2px solid black;
-}
-.testemonials .header-text {
-    text-align: center !important;
-}
-.testemonials .header-text h1 {
-    font-size: 5rem;
-    text-transform: uppercase;
-    color: black;
-    font-weight: 700;
-}
-.testemonials .header-text p {
-    width: 89%;
-    margin-left: 5.5%;
-    font-size: 1.75rem;
-    color: #bebebe;
 }
 .testemonials-testemonials {
     margin: 70px 50px 90px 50px;
@@ -413,7 +380,6 @@ body {
 }
 .footer-get-touch {
     justify-content: center;
-
 }
 .footer-get-touch h1 {
     color: white;
