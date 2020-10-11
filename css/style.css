@@ -488,6 +488,9 @@ body {
     .icon {
         max-width: 15%;
     }
+    .about-us .types {
+        margin-left: 0;
+    }
     .type {
         max-width: 50%;
     }
